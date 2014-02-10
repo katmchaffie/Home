@@ -1,0 +1,215 @@
+body{
+	background:#f4f4fb ;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.group:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.navigation{
+	background-color:#292929;
+	height:75px;
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+
+.navigation li{
+	display:inline-block;
+	line-height:50px;
+	float:left;
+	}
+
+.navigation li a{
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	padding:5px 15px 5px 15px;
+	border-radius:5px;
+	margin:-10px;
+
+
+}
+.navigation li a:hover{
+background-color:#484848;
+}
+
+
+
+
+.logo{
+	margin-left:-45px;
+
+}
+#acct{
+
+	display:inline-block;
+	float:right;
+	line-height:25px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-right:20px;
+	padding-left:20px;
+	border-radius:2px;
+	background-color:#43c3d9;
+	font-size:20px;
+	color:white;
+	border:#41b8c0;
+	text-decoration:none;
+	margin-right:20px;
+	margin-top:10px;
+
+}
+#copyright{
+	margin-left:150px;
+}
+
+
+#brain{
+	height:263px;
+	width:350px;
+	padding-bottom:50px;
+}
+ q{
+	font-size:18px;
+
+}
+.person{
+	float:right;
+	font-size:14px;
+}
+
+
+.box-one{
+	width:700px;
+	height:660px;
+	border:2px solid #b1b1b1;
+	float:left;
+	background-color:#fff;
+	padding:20px;
+	margin-left:125px;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow:1px 1px 1px #b1b1b1;
+
+}
+
+.box-two{
+	width:260px;
+	height:700px;
+	border:2px solid #b1b1b1;
+	float:right;
+	background-color:#fff;
+	margin-right:100px;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow:1px 1px 1px #b1b1b1;
+}
+
+.box-two img{
+	vertical-align:middle;
+	width:30px;
+
+
+}
+.box-two a{
+
+	width:30px;
+	text-decoration:none;
+}
+
+h1{
+	float:right;
+	padding-right:75px;
+
+}
+
+h2{
+	
+	font-size:20px;
+	text-align:center;
+}
+
+h3{
+	float:right;
+	padding-right:55px;
+	margin-top:-250px;
+}
+
+p{
+	font-size:12px;
+}
+
+ul{
+list-style-type:none;
+line-height:60px;
+}
+
+li{
+	padding-left:-10px;
+}
+
+ ul a{
+ 	text-decoration:none;
+ 	margin-right:25px;
+ }
+ li a {
+	color:black;
+}
+
+
+.sprite{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	background-image:url(../img/social-sprite.png);
+	line-height:30px;
+	vertical-align:middle;
+	margin-left:850px;
+}
+
+.sprite.facebook{
+	background-position: -0px -0px;
+}
+.sprite.twitter{
+	background-position:-32px -0px;
+}
+.sprite.linkedin{
+	background-position:-0px -32px;
+}
+.sprite.googleplus{
+	background-position:-32px -64px;
+}
+
+
+
+footer{
+	border-top:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
